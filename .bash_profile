@@ -7,6 +7,8 @@ alias dsize='du -hd1'
 # dir
 alias sc='cd ~/Code/sc'
 alias code='cd ~/Code/'
+alias m2='cd ~/.m2/repository'
+alias m2s='cd ~/.m2/repository/com/sunkz'
 
 # docker
 alias dp='docker-compose up'
