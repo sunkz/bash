@@ -7,8 +7,6 @@ alias dsize='du -hd1'
 # dir
 alias sc='cd ~/Code/sc'
 alias code='cd ~/Code/'
-alias m2='cd ~/.m2/repository'
-alias m2s='cd ~/.m2/repository/com/sunkz'
 
 # docker
 alias dp='docker-compose up'
@@ -20,6 +18,9 @@ alias mi='mvn install -DskipTests'
 alias mc='mvn clean'
 alias mcp='mvn clean package -DskipTests'
 alias md='mvn deploy -DskipTests'
+alias m2='cd ~/.m2/repository'
+alias m2s='cd ~/.m2/repository/com/sunkz'
+
 
 # git
 alias gam='git commit -am '
