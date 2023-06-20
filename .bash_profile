@@ -32,6 +32,7 @@ alias gh='git push'
 alias gr='git reset --hard head'
 alias gs='git status'
 alias gb='git branch'
+alias gv='git remote -v'
 alias gg='bash ~/.deploy.sh'
 
 # tools
