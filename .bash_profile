@@ -7,6 +7,7 @@ alias dsize='du -hd1'
 # dir
 alias sc='cd ~/Code/sc'
 alias code='cd ~/Code/'
+alias blog='cd ~/Code/blog-private'
 
 # docker
 alias dp='docker-compose up'
