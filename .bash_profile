@@ -4,6 +4,9 @@ alias e='exit'
 alias c='clear'
 alias dsize='du -hd1'
 
+# tools
+alias srf='sudo open ~/Library/Preferences/com.apple.HIToolbox.plist'
+
 # dir
 alias sc='cd ~/Code/sc'
 alias code='cd ~/Code/'
