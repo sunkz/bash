@@ -17,7 +17,7 @@ alias dp='docker-compose up'
 alias dd='docker-compose down'
 
 # maven
-alias mvnd='mvn dependency:tree'
+alias mdt='mvn dependency:tree'
 alias mi='mvn install -DskipTests'
 alias mc='mvn clean'
 alias mcp='mvn clean package -DskipTests'
