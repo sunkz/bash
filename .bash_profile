@@ -22,6 +22,7 @@ alias mi='mvn install -DskipTests'
 alias mc='mvn clean'
 alias mcp='mvn clean package -DskipTests'
 alias md='mvn deploy -DskipTests'
+alias mr='mvn clean compile -U'
 alias m2='cd ~/.m2/repository'
 alias m2s='cd ~/.m2/repository/com/sunkz'
 
