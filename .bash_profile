@@ -44,7 +44,8 @@ alias gg='bash ~/.deploy.sh'
 alias nat='ngrok http 9527 --log=stdout > ngrok.log &'
 
 # env
-export JAVA_HOME=/Library/Java/JavaVirtualMachines/jdk-11.0.12.jdk/Contents/Home
+export JAVA_HOME=/Library/Java/JavaVirtualMachines/jdk1.8.0_202.jdk/Contents/Home
+# export JAVA_HOME=/Library/Java/JavaVirtualMachines/jdk-11.0.12.jdk/Contents/Home
 export CLASS_PATH=$/JAVA_HOME/lib
 export M2_HOME=/Users/sunkezheng/Library/apache-maven-3.9.1
 export PATH=$JAVA_HOME/bin:$M2_HOME/bin:$PATH
