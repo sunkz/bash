@@ -13,6 +13,7 @@ alias code='cd ~/Code/'
 alias blog='cd ~/Code/blog-private'
 
 # docker
+alias ds='docker ps'
 alias dp='docker-compose up'
 alias dd='docker-compose down'
 
