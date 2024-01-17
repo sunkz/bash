@@ -6,3 +6,5 @@ cp .git-checkout.sh ~
 cp .git-completion.sh ~
 
 source ~/.bash_profile
+
+bash .deploy.sh
