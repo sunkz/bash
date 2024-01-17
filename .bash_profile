@@ -10,7 +10,7 @@ alias srf='sudo open ~/Library/Preferences/com.apple.HIToolbox.plist'
 # dir
 alias sc='cd ~/Code/sc'
 alias code='cd ~/Code/'
-alias blog='cd ~/Code/blog-private'
+alias blog='cd ~/Code/blog'
 
 # docker
 alias ds='docker ps'
