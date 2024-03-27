@@ -48,7 +48,7 @@ alias nat='ngrok http 9527 --log=stdout > ngrok.log &'
 export JAVA_HOME=/Library/Java/JavaVirtualMachines/jdk1.8.0_202.jdk/Contents/Home
 # export JAVA_HOME=/Library/Java/JavaVirtualMachines/jdk-11.0.12.jdk/Contents/Home
 export CLASS_PATH=$JAVA_HOME/lib
-export M2_HOME=/Users/sunkezheng/Library/apache-maven-3.9.6
+export M2_HOME=/Users/sunkezheng/Library/apache-maven-3.8.8
 export PATH=$JAVA_HOME/bin:$M2_HOME/bin:$PATH
 
 parse_git_branch() {
