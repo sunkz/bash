@@ -42,7 +42,7 @@ alias gv='git remote -v'
 alias gg='bash ~/.deploy.sh'
 
 # tools
-alias nat='ngrok http 9527 --log=stdout > ngrok.log &'
+alias nat='~/Downloads/cpolar http 9527'
 
 # env
 export JAVA_HOME=/Library/Java/JavaVirtualMachines/jdk1.8.0_202.jdk/Contents/Home
