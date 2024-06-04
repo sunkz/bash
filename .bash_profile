@@ -45,14 +45,15 @@ alias gg='bash ~/.deploy.sh'
 # tools
 alias nat='~/Downloads/cpolar http 9527'
 
-
 # env
 export PS1="[\[\e[32m\]\t\[\e[0m\] \W\[\033[32m\]\$(parse_git_branch)\[\033[00m\]]"
 
-# parse_git_branch() {
-#  git branch 2> /dev/null | sed -e '/^[^*]/d' -e 's/* \(.*\)/ (\1)/'
-# }
+# terminal PS1 中显示 git 分支名字
+parse_git_branch() {
+  git branch 2> /dev/null | sed -e '/^[^*]/d' -e 's/* \(.*\)/ (\1)/'
+}
 
+# Git 自动补全
 if [ -f ~/.git-completion.sh ]; then
     . ~/.git-completion.sh
 fi
