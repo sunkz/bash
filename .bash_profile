@@ -11,6 +11,7 @@ alias srf='sudo open ~/Library/Preferences/com.apple.HIToolbox.plist'
 alias sc='cd ~/Code/sc'
 alias code='cd ~/Code/'
 alias blog='cd ~/Code/blog'
+alias sdkdir=cd '~/.sdkman/candidates'
 
 # docker
 alias ds='docker ps'
@@ -44,13 +45,6 @@ alias gg='bash ~/.deploy.sh'
 # tools
 alias nat='~/Downloads/cpolar http 9527'
 
-# env
-# export JAVA_HOME=/Library/Java/JavaVirtualMachines/jdk1.8.0_202.jdk/Contents/Home
-# export JAVA_HOME=/Library/Java/JavaVirtualMachines/jdk-11.0.12.jdk/Contents/Home
-# export CLASS_PATH=$JAVA_HOME/lib
-export M2_HOME=/Users/sunkezheng/Library/apache-maven-3.8.8
-# export PATH=$JAVA_HOME/bin:$M2_HOME/bin:$PATH
-export PATH=$M2_HOME/bin:$PATH
 
 parse_git_branch() {
   git branch 2> /dev/null | sed -e '/^[^*]/d' -e 's/* \(.*\)/ (\1)/'
