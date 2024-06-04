@@ -48,8 +48,6 @@ alias nat='~/Downloads/cpolar http 9527'
 
 # env
 export PS1="[\[\e[32m\]\t\[\e[0m\] \W\[\033[32m\]\$(parse_git_branch)\[\033[00m\]]"
-# export LC_ALL=en_US.UTF-8
-# export LANG=en_US.UTF-8
 
 parse_git_branch() {
   git branch 2> /dev/null | sed -e '/^[^*]/d' -e 's/* \(.*\)/ (\1)/'
