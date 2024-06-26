@@ -6,6 +6,7 @@ alias dsize='du -hd1'
 
 # tools
 alias srf='sudo open ~/Library/Preferences/com.apple.HIToolbox.plist'
+alias ip='ipconfig getifaddr en0'
 
 # dir
 alias sc='cd ~/Code/sc'
