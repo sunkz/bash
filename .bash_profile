@@ -12,6 +12,7 @@ alias ip='ipconfig getifaddr en0'
 alias sc='cd ~/Code/sc'
 alias code='cd ~/Code/'
 alias blog='cd ~/Code/blog'
+alias api='cd ~/Code/api'
 alias sdkdir='cd ~/.sdkman/candidates'
 
 # docker
