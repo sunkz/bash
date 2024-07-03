@@ -9,10 +9,10 @@ alias srf='sudo open ~/Library/Preferences/com.apple.HIToolbox.plist'
 alias ip='ipconfig getifaddr en0'
 
 # dir
-alias sc='cd ~/Code/sc'
-alias code='cd ~/Code/'
-alias blog='cd ~/Code/blog'
-alias api='cd ~/Code/api'
+alias sc='cd ~/code/sc'
+alias code='cd ~/code/'
+alias blog='cd ~/code/blog'
+alias api='cd ~/code/api'
 alias sdkdir='cd ~/.sdkman/candidates'
 
 # docker
