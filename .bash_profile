@@ -1,5 +1,6 @@
 # system
 alias l='ls -lh'
+alias ll='ls -hl'
 alias e='exit'
 alias c='clear'
 alias dsize='du -hd1'
