@@ -14,6 +14,7 @@ alias sc='cd ~/code/sc'
 alias code='cd ~/code/'
 alias blog='cd ~/code/blog'
 alias api='cd ~/code/api'
+alias hdl='cd ~/code/hdl'
 alias sdkdir='cd ~/.sdkman/candidates'
 
 # docker
