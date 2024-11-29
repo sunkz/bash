@@ -13,7 +13,6 @@ alias ip='ipconfig getifaddr en0'
 alias sc='cd ~/code/sc'
 alias code='cd ~/code/'
 alias blog='cd ~/code/blog'
-alias hdl='cd ~/code/hdl'
 alias api='cd ~/code/api'
 alias sdkdir='cd ~/.sdkman/candidates'
 
