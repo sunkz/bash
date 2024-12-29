@@ -31,12 +31,6 @@ alias md='mvn deploy -DskipTests'
 alias m2='cd ~/.m2/repository'
 alias m2s='cd ~/.m2/repository/com/sunkz'
 
-# gradle
-alias grdc='gradle clean'
-alias grdcp='gradle clean build -x test'
-alias grdi='gradle clean build -x test install'
-alias grdd='gradle clean build -x test publish'
-
 # git
 alias gam='git commit -am '
 alias gc='bash ~/.git-checkout.sh'
