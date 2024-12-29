@@ -25,7 +25,7 @@ alias dd='docker-compose down'
 # maven
 alias mdt='mvn dependency:tree'
 alias mc='mvn clean'
-alias mcp='mvn clean package -DskipTests'
+alias mcp='mvn clean package -U -DskipTests'
 alias mi='mvn install -DskipTests'
 alias md='mvn deploy -DskipTests'
 alias m2='cd ~/.m2/repository'
