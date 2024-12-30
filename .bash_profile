@@ -31,6 +31,9 @@ alias md='mvn deploy -DskipTests'
 alias m2='cd ~/.m2/repository'
 alias m2s='cd ~/.m2/repository/com/sunkz'
 
+# gradle
+alias g2='cd ~/.gradle/caches/modules-2/files-2.1'
+
 # git
 alias gam='git commit -am '
 alias gc='bash ~/.git-checkout.sh'
