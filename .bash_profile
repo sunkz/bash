@@ -16,6 +16,7 @@ alias blog='cd ~/code/blog'
 alias api='cd ~/code/api'
 alias xy='cd ~/code/xy'
 alias sdkdir='cd ~/.sdkman/candidates'
+alias proto='cd ~/.gradle/caches/modules-2/files-2.1/com.xiaoying.cardloan/xiaoying-protos'
 
 # docker
 alias ds='docker ps'
