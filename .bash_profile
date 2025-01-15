@@ -9,6 +9,9 @@ alias dsize='du -hd1'
 alias srf='sudo open ~/Library/Preferences/com.apple.HIToolbox.plist'
 alias ip='ipconfig getifaddr en0'
 
+# ssh
+alias sshxy='ssh jms.yingzhongtong.com'
+
 # dir
 alias sc='cd ~/code/sc'
 alias code='cd ~/code/'
