@@ -55,9 +55,6 @@ alias gg='bash ~/.deploy.sh'
 # tools
 alias nat='~/Downloads/cpolar http 9527'
 
-# url wrap
-alias bash='rlwrap -pGREEN bash'
-
 # env
 export PS1="[\[\e[32m\]\t\[\e[0m\] \W\[\033[32m\]\$(parse_git_branch)\[\033[00m\]]"
 
