@@ -68,6 +68,9 @@ if [ -f ~/.git-completion.sh ]; then
     . ~/.git-completion.sh
 fi
 
+# url 高亮
+source ~/.bash_url_highlight
+
 #THIS MUST BE AT THE END OF THE FILE FOR SDKMAN TO WORK!!!
 export SDKMAN_DIR="$HOME/.sdkman"
 [[ -s "$HOME/.sdkman/bin/sdkman-init.sh" ]] && source "$HOME/.sdkman/bin/sdkman-init.sh"

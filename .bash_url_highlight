@@ -1,0 +1,10 @@
+# 用颜色高亮 URL 并添加超链接转义码
+highlight_url() {
+  while read -r line; do
+    echo "$line" | ggrep -E --color=always -e "(https?://|ftp://|file://)[^[:space:]]*" | \
+    sed -E 's/((https?|ftp|file):\/\/[^[:space:]]*)/\x1B]8;;\1\x1B\\\x1B[32m\1\x1B[0m\x1B]8;;\x1B\\/g'
+  done
+}
+
+# 捕获所有输出并高亮
+trap 'highlight_url' DEBUG
